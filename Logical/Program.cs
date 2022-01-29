@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Welcome to logical program");
+﻿using Logical;
+class program
+{
+    static void Main(string[] args)
+    {
+        NumberSystem numberSystem = new NumberSystem();
+        numberSystem.Fibonacci();
+    }
+}
