@@ -87,5 +87,20 @@ namespace Logical
             Console.WriteLine("Reversed Number: " + reverse);
 
         }
+        // uc5: to generate coupon number.
+
+        public void CreateCoupon()
+        {
+            var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+            var stringChars = new char[6];
+            var random = new Random(); 
+
+            for (int i = 0; i < stringChars.Length; i++)
+            {
+                stringChars[i] = chars[random.Next(chars.Length)];
+            }
+            var finalstring = new String(stringChars);
+            Console.WriteLine(finalstring);
+        }
     }
 }

@@ -7,6 +7,7 @@ class program
         //numberSystem.Fibonacci();
         //numberSystem.PerfectNumber();
         //numberSystem.PrimeNumber();
-        numberSystem.ReverseNumber();
+        //numberSystem.ReverseNumber();
+        numberSystem.CreateCoupon();
     }
 }
