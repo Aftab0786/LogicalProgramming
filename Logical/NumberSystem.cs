@@ -27,5 +27,33 @@ namespace Logical
 
             }
         }
+        public void PerfectNumber()
+        {
+            int n, r, sum = 0, number;
+            Console.WriteLine("Enter the number: ");
+            number = int.Parse(Console.ReadLine());
+            n = number;
+           
+            for(int i = 1; i < number; i++)
+            {
+                if(number % i == 0)
+                {
+                    sum = sum + i;
+                }
+            }
+            if (sum == n)
+            {
+                Console.WriteLine(" Entered the number is a perfect number");
+                
+            }
+            else
+            {
+                Console.WriteLine("Entered the number is not a perfect number");
+                
+            }
+            
+                
+            
+        }
     }
 }
