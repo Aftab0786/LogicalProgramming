@@ -6,6 +6,7 @@ class program
         NumberSystem numberSystem = new NumberSystem();
         //numberSystem.Fibonacci();
         //numberSystem.PerfectNumber();
-        numberSystem.PrimeNumber();
+        //numberSystem.PrimeNumber();
+        numberSystem.ReverseNumber();
     }
 }
